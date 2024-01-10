@@ -2,16 +2,13 @@
 def main():
     list = []
     name = input("What is your name: ")
-    name = name.title()
-    list.append(name)
+    list.append(name.title())
 
-    age = input("What is your age: ")
-    int(age)
+    age = int(input("What is your age: "))
     list.append(age)
 
     movie = input("What is your favorite movie: ")
-    movie = movie.title()
-    list.append(movie)
+    list.append(movie.title())
     
     inner = []
     genre = input("What's the genre: ")
